@@ -1,0 +1,109 @@
+@media (max-width: 1200px) {
+    .courses{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .container{
+        width: 80%;
+    }
+}
+
+@media(max-width: 994px){
+    .blogs{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .players{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 30px;
+    }
+    .container{
+        width: 90%;
+    }
+
+
+}
+
+@media (max-width: 650px) {
+    .courses{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+
+@media(max-width: 540px){
+    .players{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .menu ul li a{
+        font-size: 12px;
+        line-height: 24px;
+        padding: 20px 10px;
+    }
+    .menu ul li a img{
+        width: 35px;
+        height: 35px;
+        padding: 20px 0;
+    }
+    .left .logo{
+        width: 30px;
+        height: 35px;
+        margin-right: 10px;
+     }
+     .left h2{
+         font-size: 20px;
+     }
+     .header-content{
+        height: 74px;
+    }
+    .blog{
+        display: block;
+    }
+    .blog-details{
+        margin-left: 0;
+    }
+
+
+
+}
+
+
+@media (max-width: 360px) {
+    .menu ul li a{
+        font-size: 12px;
+        padding: 10px 6px;
+    }
+    .menu ul li a img{
+        width: 25px;
+        height: 25px;
+        padding: 10px 0;
+    }
+    .left .logo{
+        width: 20px;
+        height: 25px;
+        margin-right: 7px;
+     }
+     .left h2{
+         font-size: 16px;
+     }
+     .header-content{
+        height: 64px;
+    }
+    .course-details h2{
+        font-size: 16px;
+    }
+    .course-info{
+        display: block;
+    }
+    .duration{
+        width: 50%;
+        margin-top: 15px;
+        
+    }
+    .blog-details h2{
+        font-size: 16px;
+    }
+    .blog-details p{
+        font-size: 12px;
+    }
+
+}
